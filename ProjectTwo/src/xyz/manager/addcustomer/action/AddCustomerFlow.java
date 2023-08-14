@@ -37,5 +37,10 @@ public class AddCustomerFlow implements  ManagerLocators{
 		
 		
 	}
+	
+	public void add_Customer_OBJREPO() {
+		
+		helper = new ListenerHelper(driver);
+	}
 
 }
